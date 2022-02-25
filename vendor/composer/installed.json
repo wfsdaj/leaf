@@ -1,0 +1,884 @@
+[
+    {
+        "name": "leafs/anchor",
+        "version": "v1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/anchor.git",
+            "reference": "3ea546866a2f658fc3afdb4240ed949f0e2b07c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/anchor/zipball/3ea546866a2f658fc3afdb4240ed949f0e2b07c2",
+            "reference": "3ea546866a2f658fc3afdb4240ed949f0e2b07c2",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "pestphp/pest": "^1.21"
+        },
+        "time": "2022-01-22T14:14:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP util module",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "framework",
+            "leaf",
+            "php",
+            "util"
+        ]
+    },
+    {
+        "name": "leafs/auth",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/auth.git",
+            "reference": "a33ced30573f6277787ca093b0189374ac2f95fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/auth/zipball/a33ced30573f6277787ca093b0189374ac2f95fc",
+            "reference": "a33ced30573f6277787ca093b0189374ac2f95fc",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/date": "^1.0",
+            "leafs/db": "^2.0",
+            "leafs/form": "^1.1",
+            "leafs/http": "^1.2.1",
+            "leafs/password": "^1.0",
+            "leafs/session": "^1.1"
+        },
+        "time": "2022-02-17T22:28:56+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions.php"
+            ],
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP auth helper",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "Authentication",
+            "framework",
+            "leaf",
+            "login",
+            "php",
+            "register",
+            "simple auth"
+        ]
+    },
+    {
+        "name": "leafs/bareui",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/bareui.git",
+            "reference": "3fa6301921284c7f74c6a57aa45bab91912b0c05"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/bareui/zipball/3fa6301921284c7f74c6a57aa45bab91912b0c05",
+            "reference": "3fa6301921284c7f74c6a57aa45bab91912b0c05",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2021-09-19T12:02:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP bareui templating engine",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "framework",
+            "leaf",
+            "php",
+            "simple templating",
+            "template",
+            "view"
+        ]
+    },
+    {
+        "name": "leafs/date",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/date.git",
+            "reference": "0f92b91a82263eb10cc7716a4acfb680161761ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/date/zipball/0f92b91a82263eb10cc7716a4acfb680161761ee",
+            "reference": "0f92b91a82263eb10cc7716a4acfb680161761ee",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2021-09-20T20:21:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP date module",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "date",
+            "datetime",
+            "framework",
+            "leaf",
+            "php",
+            "time"
+        ]
+    },
+    {
+        "name": "leafs/db",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/db.git",
+            "reference": "52137ef6e6a31ea2fd20f6579fdccf53ba94a08c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/db/zipball/52137ef6e6a31ea2fd20f6579fdccf53ba94a08c",
+            "reference": "52137ef6e6a31ea2fd20f6579fdccf53ba94a08c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-mysqli": "*"
+        },
+        "require-dev": {
+            "pestphp/pest": "^1.21"
+        },
+        "time": "2022-01-24T18:01:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP db module.",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "database",
+            "framework",
+            "leaf",
+            "orm",
+            "php"
+        ]
+    },
+    {
+        "name": "leafs/exception",
+        "version": "v3.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/exceptions.git",
+            "reference": "9f9728a7cbd01c1a51697dc8272a621856436f6b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/exceptions/zipball/9f9728a7cbd01c1a51697dc8272a621856436f6b",
+            "reference": "9f9728a7cbd01c1a51697dc8272a621856436f6b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^5.5.9 || ^7.0 || ^8.0",
+            "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9 || ^1.0",
+            "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.3",
+            "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
+        },
+        "suggest": {
+            "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+            "whoops/soap": "Formats errors as SOAP responses"
+        },
+        "time": "2022-01-27T22:02:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            },
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Error handler for leaf (fork of whoops)",
+        "homepage": "https://github.com/leafsphp/exception",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "throwable",
+            "whoops"
+        ]
+    },
+    {
+        "name": "leafs/form",
+        "version": "v1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/form.git",
+            "reference": "8036ebe456a21c966bb1184eb86f9d068495965c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/form/zipball/8036ebe456a21c966bb1184eb86f9d068495965c",
+            "reference": "8036ebe456a21c966bb1184eb86f9d068495965c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/http": "^1.2"
+        },
+        "time": "2022-01-23T23:56:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP form module",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "form",
+            "framework",
+            "leaf",
+            "php",
+            "validation"
+        ]
+    },
+    {
+        "name": "leafs/http",
+        "version": "v1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/http.git",
+            "reference": "db8f92a59d96d09a55dc18a9a1876cc5fba0a500"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/http/zipball/db8f92a59d96d09a55dc18a9a1876cc5fba0a500",
+            "reference": "db8f92a59d96d09a55dc18a9a1876cc5fba0a500",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/anchor": "^1.0"
+        },
+        "time": "2022-01-20T09:46:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\Http\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP HTTP module.",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "framework",
+            "headers",
+            "http",
+            "leaf",
+            "php",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "leafs/leaf",
+        "version": "v3.0-rc.2",
+        "version_normalized": "3.0.0.0-RC2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/leaf.git",
+            "reference": "3cec010301f646b094d41d1499eb696a68aaa260"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/leaf/zipball/3cec010301f646b094d41d1499eb696a68aaa260",
+            "reference": "3cec010301f646b094d41d1499eb696a68aaa260",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/anchor": "^1.2",
+            "leafs/exception": "^3.0",
+            "leafs/http": "^1.2",
+            "leafs/router": "^0.1.5"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^3.0",
+            "pestphp/pest": "^1.21"
+        },
+        "time": "2022-01-27T23:07:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions.php"
+            ],
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple, performant and powerful PHP micro-framework for rapid web app & API development",
+        "homepage": "https://leafphp.dev",
+        "keywords": [
+            "framework",
+            "leaf",
+            "microframework",
+            "php",
+            "rest",
+            "router"
+        ]
+    },
+    {
+        "name": "leafs/mail",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/mail.git",
+            "reference": "454a0bf631733683268ccac6cb25b74d410861a1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/mail/zipball/454a0bf631733683268ccac6cb25b74d410861a1",
+            "reference": "454a0bf631733683268ccac6cb25b74d410861a1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "phpmailer/phpmailer": "^6.5"
+        },
+        "time": "2021-09-19T12:12:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP bareui templating engine",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "framework",
+            "leaf",
+            "php",
+            "simple templating",
+            "template",
+            "view"
+        ]
+    },
+    {
+        "name": "leafs/password",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/password.git",
+            "reference": "f720c3b18c6c6efeaeb67d1cfad336febd4c7f94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/password/zipball/f720c3b18c6c6efeaeb67d1cfad336febd4c7f94",
+            "reference": "f720c3b18c6c6efeaeb67d1cfad336febd4c7f94",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2021-09-19T12:27:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\Helpers\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP password helper",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "framework",
+            "leaf",
+            "php",
+            "simple templating",
+            "template",
+            "view"
+        ]
+    },
+    {
+        "name": "leafs/router",
+        "version": "v0.1.5",
+        "version_normalized": "0.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/router.git",
+            "reference": "48c035ff9a5c231f20a3946b07186e0bcb2c01ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/router/zipball/48c035ff9a5c231f20a3946b07186e0bcb2c01ee",
+            "reference": "48c035ff9a5c231f20a3946b07186e0bcb2c01ee",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/http": "^1.0"
+        },
+        "require-dev": {
+            "pestphp/pest": "^1.21"
+        },
+        "time": "2022-01-26T16:35:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf router module for Leaf PHP.",
+        "homepage": "https://leafphp.netlify.app/#/modules/router",
+        "keywords": [
+            "framework",
+            "leaf",
+            "php",
+            "rest",
+            "router"
+        ]
+    },
+    {
+        "name": "leafs/session",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafsphp/session.git",
+            "reference": "34ffdcac2d59ec721840f2e46d6fed3dccfe7e24"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafsphp/session/zipball/34ffdcac2d59ec721840f2e46d6fed3dccfe7e24",
+            "reference": "34ffdcac2d59ec721840f2e46d6fed3dccfe7e24",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "leafs/anchor": "^1.2.1"
+        },
+        "time": "2022-01-22T14:45:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leaf\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Darko",
+                "email": "mickdd22@gmail.com",
+                "homepage": "https://mychi.netlify.app",
+                "role": "Developer"
+            }
+        ],
+        "description": "Leaf PHP session + flash modules",
+        "homepage": "https://leafphp.netlify.app/#/",
+        "keywords": [
+            "flash",
+            "framework",
+            "http",
+            "leaf",
+            "php",
+            "session"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.5.4",
+        "version_normalized": "6.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "c0d9f7dd3c2aa247ca44791e9209233829d82285"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c0d9f7dd3c2aa247ca44791e9209233829d82285",
+            "reference": "c0d9f7dd3c2aa247ca44791e9209233829d82285",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "ext-hash": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+            "doctrine/annotations": "^1.2",
+            "php-parallel-lint/php-console-highlighter": "^0.5.0",
+            "php-parallel-lint/php-parallel-lint": "^1.3.1",
+            "phpcompatibility/php-compatibility": "^9.3.5",
+            "roave/security-advisories": "dev-latest",
+            "squizlabs/php_codesniffer": "^3.6.2",
+            "yoast/phpunit-polyfills": "^1.0.0"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2022-02-17T08:19:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2021-05-03T11:20:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    }
+]
