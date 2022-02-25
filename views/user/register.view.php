@@ -4,7 +4,7 @@
     <?php include VIEWS_PATH . 'layouts/_nav.view.php'; ?>
 
     <div class="mt-5 mb-5">
-        <div class="auth-logo mx-auto"></div>
+        <div class="auth-logo mx-auto">LOGO</div>
     </div>
 
     <div class="auth-form">
@@ -14,9 +14,9 @@
 
         <form id="auth-form" method="POST" autocomplete="off">
             <div class="form-floating mb-4">
-                <input type="text" class="form-control" name="name" id="name" value="" placeholder="用户名" autocomplete="off" autofocus>
-                <label for="name">用户名</label>
-                <span id="nameHelp" class="form-text text-danger"></span>
+                <input type="text" class="form-control" name="username" id="username" value="" placeholder="用户名" autocomplete="off" autofocus>
+                <label for="username">用户名</label>
+                <span id="usernameHelp" class="form-text text-danger"></span>
             </div>
 
             <div class="form-floating mb-4">
@@ -66,15 +66,15 @@
         // let name, email, reg, password, submitButton;
 
         // 验证用户名
-        $('#name').change(function() {
-            let name = $('#name').val();
-            if (name.length < 3) {
-                $('#name').addClass('is-invalid');
-                $('#nameHelp').text('请输入 3~16 位的用户名');
-                flagName = false;
+        $('#username').change(function() {
+            let username = $('#username').val();
+            if (username.length < 3) {
+                $('#username').addClass('is-invalid');
+                $('#usernameHelp').text('请输入 3~16 位的用户名');
+                flagusername = false;
             } else {
-                $('#name').removeClass('is-invalid');
-                $('#nameHelp').text('');
+                $('#username').removeClass('is-invalid');
+                $('#usernameHelp').text('');
                 flagName = true;
             }
         });
@@ -155,8 +155,6 @@
                 } else {
                     notie.alert({type: 3, text: res.message, time: 2})
                     $('#submitButton').html(submitButton);
-                    // $('#captcha').attr('src', res.captcha);
-                    // $('input[name="captcha"]').val('');
                 }
             });
         });
